@@ -1,8 +1,6 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-void LBPress();
-
 int g_beforeData = 0;
 unsigned long startTime, endTime;
 bool isRun = false;
